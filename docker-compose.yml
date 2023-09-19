@@ -1,0 +1,23 @@
+version: "3"
+
+services:
+    server:
+        container_name: mariadb_server
+        restart: always
+        build: .
+        networks:
+            - chatbot_network
+        ports:
+            - "3306:3306"
+        volumes:
+            - container-volume:/var/lib/mysql
+            - ./sqls.sql:/docker-entrypoint-initdb.d/sqls.sql
+        environment:
+            TZ: Asia/Seoul
+
+volumes:
+  container-volume:
+
+networks:
+    chatbot_network:
+        driver: bridge
