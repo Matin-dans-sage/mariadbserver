@@ -1,4 +1,4 @@
-<img src="https://img.shields.io/badge/MARIADB%20SERVER-003545?style=for-the-badge&logo=Python&logoColor=white"> <img src="https://img.shields.io/badge/DOCKER-2496ED?style=for-the-badge&logo=Python&logoColor=white">
+<img src="https://img.shields.io/badge/MARIADB%20SERVER-003545?style=for-the-badge&logo=mariadb&logoColor=white"> <img src="https://img.shields.io/badge/DOCKER-2496ED?style=for-the-badge&logo=Python&logoColor=white">
 
 
 ## Installation
